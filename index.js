@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/Message", (req, res) => {
-  res.send("Hello, Mavhec! Can we go out on a date?");
+  res.send("Hello, Mavhec! You look so beautiful today :)");
 });
 
 app.listen(port, () => {
