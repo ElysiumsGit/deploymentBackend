@@ -9,8 +9,8 @@ app.get("/", (req, res) => {
   res.send("Hello, Everyone!");
 });
 
-app.get("/Message", (req, res) => {
-  res.send("Hello, Mavhec! You look so beautiful today :)");
+app.get("/message", (req, res) => {
+  res.send("Hello, Mavhec! You look so beautiful today :) -jc");
 });
 
 app.listen(port, () => {
